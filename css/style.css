@@ -5,11 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Roboto:wght@900&family=Sriracha&display=swap');
 
+/* Global -------------------------------------------------------------------------------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Cabeçalho -------------------------------------------------------------------------------------------------------------- */
 
 header {
     background-color: #000;
@@ -57,6 +61,8 @@ main {
     font-family: 'Passion One';
 }
 
+/* Body Page -------------------------------------------------------------------------------------------------------------- */
+
 .with-background1 {
     background: black url(images/background001.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -93,6 +99,14 @@ article p {
 .contanier-p3 {
     margin-top: 20px;
 }
+
+/* Scroll's Efects -------------------------------------------------------------------------------------------------------------- */
+
+#titulo, #autor, .paragraph {
+    visibility: hidden;
+}
+
+/* Footer -------------------------------------------------------------------------------------------------------------- */
 
 #rodape {
     background-color: #000;
